@@ -1,0 +1,150 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1130px;
+    min-height: 500px;
+}
+
+.slide{
+    height: 500px;
+    width: 100%;
+    background: url('wuri.jpg');
+    background-size: 100% 115%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(224, 16, 16);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .menu-item{
+    margin-left: 1px;
+
+    margin-top: 27px;
+}
+
+li .menu-item:hover{
+    border-radius: 50px;
+    background-color: #A61C21;
+    border: 1px solid white;
+}
+
+.menu-search{
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 32px;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background: rgba(250, 250, 250, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.menu input[type="text"]{
+    padding-left: 20px;
+}
+
+.menu-search::placeholder{
+    padding-left: 1px;
+    color: white;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tittle-image{
+    margin-left: 150px;
+    top: 188px;
+    position: absolute;
+    color: #c02127;
+}
+
+.description-image{
+    margin-left: 150px;
+    margin-top: 210px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.catalog{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 0rgba(0, 0, 0, 0.4), 0 6px 20px 0rgba(0, 0, 0, 0.20);
+    border-radius: 25px; 
+}
+
+.column{
+    float: left;
+    width: 21%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prestasi{
+    margin-top: -40px;
+    margin-left: 60px;
+}
+
+.lokasi{
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.fasilitas{
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.virtual{
+    margin-top: -75px;
+    margin-left: 75px;
+}
+
+.catalog-column{
+    transition: 0.3s;
+}
+
+.catalog-column:hover{
+    margin-top: -5px;
+    padding: 20px;
+    background: #c02127;
+    color: #fff;
+    border-radius: 25px;
+}

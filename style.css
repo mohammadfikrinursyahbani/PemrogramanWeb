@@ -1,0 +1,351 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1130px;
+    min-height: 500px;
+}
+
+.slide{
+    height: 500px;
+    width: 100%;
+    background: url('asset/wuri.jpg');
+    background-size: 100% 115%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(224, 16, 16);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .menu-item{
+    margin-left: 1px;
+
+    margin-top: 27px;
+}
+
+li .menu-item:hover{
+    border-radius: 50px;
+    background-color: #A61C21;
+    border: 1px solid white;
+}
+
+.menu-search{
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 32px;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background: rgba(250, 250, 250, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.menu input[type="text"]{
+    padding-left: 20px;
+}
+
+.menu-search::placeholder{
+    padding-left: 1px;
+    color: white;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tittle-image{
+    margin-left: 150px;
+    top: 188px;
+    position: absolute;
+    color: #c02127;
+}
+
+.description-image{
+    margin-left: 150px;
+    margin-top: 210px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.catalog{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 0rgba(0, 0, 0, 0.4), 0 6px 20px 0rgba(0, 0, 0, 0.20);
+    border-radius: 25px; 
+}
+
+.column{
+    float: left;
+    width: 21%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prestasi{
+    margin-top: -40px;
+    margin-left: 60px;
+}
+
+.lokasi{
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.fasilitas{
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.virtual{
+    margin-top: -75px;
+    margin-left: 75px;
+}
+
+.catalog-column{
+    transition: 0.3s;
+}
+
+.catalog-column:hover{
+    margin-top: -5px;
+    padding: 20px;
+    background: #c02127;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.tittle-home{
+    margin-top: 50px;
+    padding-left: 25px;
+    border-left: solid 7px #DB292F;
+    border-radius: 0 10px 10px 0;
+    background: #e0e0e0;
+}
+
+.tittle-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.icon-kenapa{
+    text-align: center;
+    margin-left: 92px;
+    border-radius: 10px;
+    margin-top: -40px;
+    padding-top: 5px;
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.20);
+}
+
+.box-kenapa{
+    height: 250px;
+    background: #DB292F;
+    border-radius: 25px;
+    margin-top: -15px;
+}
+
+.tittle-kenapa{
+    color: white;
+    position: absolute;
+    margin-top: 55px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.content-kenapa{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-left: 3px;
+    width: 97%;
+    margin-top: -120px;
+    background-color: white;
+    height: 100px;
+}
+
+.desc-content-kenapa{
+    padding-top: 15px;
+}
+
+.judul{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    border-bottom: 3px solid red;
+}
+
+.heading h2{
+    width: 100%;
+}
+
+.kartu-acara{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.20);
+    background-color: white;
+    height: 600px;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.acara-inner{
+    padding: 15px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.kartu-item-acara{
+    width: 100%;
+    height: 230px;
+    background-color: #f0f0f0;
+    color: #000;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.img-acara{
+    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.kartu-item-acara:hover{
+    background-color: #db292f;
+    color: white;
+}
+
+.kartu-item-date{
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+    background-color: #c7c7c7bb;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.judul-acara{
+    margin-top: -190px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+}
+
+.lokasi-acara{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 120px;
+}
+
+.waktu-hari{
+    font-weight: normal;
+    margin-left: 85px;
+    padding-top: 25px;
+}
+
+.day-num{
+    font-size: 38px;
+    margin-top: -115px;
+    margin-left: 255px;
+    padding-top: 25px;
+}
+
+.slash-date{
+    font-weight: normal;
+    font-size: 38px;
+    margin-top: -90px;
+    margin-left: 225px;
+    padding-top: 25px;
+}
+
+.bulan-tahun{
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: -105px;
+    margin-left: 305px;
+    padding-top: 25px;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 250px;
+    background-color: #BD2429;
+}
+
+.container-footer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1130px;
+}
+
+.footer-judul{
+    margin-top: -20px;
+    color:white;
+    font-size:2.5rem;
+}
+
+.footer-desc{
+    color: white;
+    margin-top: -40px;
+}
+
+.social-media{
+    position: relative;
+    margin-top: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media:hover{
+    color: #FFBF00;
+}
+
+.social-media-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.social-media-desc{
+    font-size: 0.9rem;
+}
